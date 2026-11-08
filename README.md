@@ -1,8 +1,8 @@
 # 🍅 Short Drama or Death
 **For Short Drama Addicts Who Consider Picking Up a Phone a Violation of Their Fundamental Human Rights.**
 # Target users：ShortDramaAddicts and PhonePickupHaters
-> **献给那些认为拿起手机侵犯了自己基本人权的短剧成瘾者。**
-> **目标用户：短剧成瘾者和拿起手机厌恶者**
+**献给那些认为拿起手机侵犯了自己基本人权的短剧成瘾者。**
+**目标用户：短剧成瘾者和拿起手机厌恶者**
 
 > **Mission-critical infrastructure for absolutely non-critical entertainment.**  
 > 为毫无战略意义的娱乐活动，建设高度严肃的技术基础设施。
@@ -73,6 +73,7 @@ Other Android devices **may** work. This repository does not claim they will.
 
 > **When will my phone be supported?**  
 > When I buy one. Maybe. Or you could buy me a flagship phone(strongly recommended). Either way, no updates are guaranteed—even if you buy me the phone
+
 > **什么时候支持我的手机？**  
 > 等我买了再说。买了也不一定。或者你也可以给我买个旗舰手机(强烈推荐）。不过，即使你真的给我买了手机，更新也不是保证的，因为白嫖是人类的第一驱动力。
 
@@ -318,9 +319,12 @@ A: You can inspect and fork the public repository. Check its actual license befo
 **状态：概念上极其伟大，实现起来有点麻烦。**
 
 YubiKey is not cheap, but I have two of them.
-Prepare two of them, because if you lose one of them, it can be a disaster.
+
+Prepare at least two of them, because if you lose your only one(sounds like a love story, baby), it can be a disaster.
+
 这东西蛮贵的，但是我有俩。
-你最好准备两个，如果你丢了一个，卧槽，那你遭老罪咯。
+
+你最好准备两个，如果你丢了你仅有的一个，卧槽，那你遭老罪咯（没在开玩笑，真的很重要，当然你也可以选择不买，反正也不是我赚钱）。
 
 I am considering requiring a physical YubiKey before launching this extraordinarily sensitive short-drama viewing infrastructure.
 
