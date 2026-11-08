@@ -1,8 +1,8 @@
 # 🍅 Short Drama or Death
 **For Short Drama Addicts Who Consider Picking Up a Phone a Violation of Their Fundamental Human Rights.**
-Target users：ShortDramaAddicts and PhonePickupHaters
-**献给那些认为拿起手机侵犯了自己基本人权的短剧成瘾者。**
-**目标用户：短剧成瘾者和拿起手机厌恶者**
+# Target users：ShortDramaAddicts and PhonePickupHaters
+> **献给那些认为拿起手机侵犯了自己基本人权的短剧成瘾者。**
+> **目标用户：短剧成瘾者和拿起手机厌恶者**
 
 > **Mission-critical infrastructure for absolutely non-critical entertainment.**  
 > 为毫无战略意义的娱乐活动，建设高度严肃的技术基础设施。
