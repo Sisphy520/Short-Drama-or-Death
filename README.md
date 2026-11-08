@@ -170,7 +170,7 @@ Or provide the details directly / 也可以直接输入配对信息：
 
 **配对端口 ≠ 连接端口。** Android 提供两套端口，显然是为了让这件事稍微更有戏剧性。
 
-### 5. Watch something questionable / 开始观看严肃的短剧内容
+### 5. Watch something questionable / 开始观看(批判）严肃的短剧内容
 
 ```bash
 ./mirror_fanqie.sh
@@ -255,7 +255,7 @@ On a supported device, the experimental guard watches the Android wakefulness st
 
 Emergency command / 应急命令：
 I hope you never use it./我希望你永远不要用到它。
-I hope me never use it./我希望我也永远不要用到它。
+I sincerely hope I never have to use it either./我希望我也永远不要用到它。
 
 ```bash
 ./mirror_fanqie.sh --restore-screen
@@ -333,7 +333,7 @@ A: You can inspect and fork the public repository. Check its actual license befo
 
 I am considering requiring a physical YubiKey before launching this extraordinarily sensitive short-drama viewing infrastructure.
 
-我正在考虑为这套高度敏感的短剧观看基础设施加入 YubiKey 实体安全密钥认证。届时，观看霸总失忆前，或许还需要完成硬件身份验证。
+我正在考虑为这套高度敏感的短剧观看基础设施加入 YubiKey 实体安全密钥认证。届时，观看霸总（也就是我）失忆前，或许还需要完成硬件身份验证。
 
 A launcher-level check would **not** secure ADB or prevent someone from running scrcpy directly. A real security boundary would require more work. Unfortunately, I also have a life to live.
 
@@ -343,8 +343,8 @@ Possible outcomes / 可能结果：
 
 - Implemented someday. / 某天实现。
 - Considered forever. / 永久考虑。
-- Implemented locally and never published. / 本地实现，但不公开。
-- Forgotten entirely. / 彻底忘记此事。
+- Implemented locally and never published. / 本地实现，但永不公开。
+- Forgotten entirely.(**most likely**) / 彻底忘记此事。 （**最可能**）
 
 **ETA: When I feel like it. Possibly never.**  
 **预计完成时间：等我哪天想起来，也可能永远没有。**
