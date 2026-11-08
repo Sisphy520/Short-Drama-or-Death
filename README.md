@@ -18,7 +18,6 @@ A ridiculously overengineered zsh script that streams Chinese short dramas from 
 
 **Updates:** Publication not guaranteed.
 
-# 🍅 Short Drama or Death
 
 > **Mission-critical infrastructure for absolutely non-critical entertainment.**  
 > 为毫无战略意义的娱乐活动，建设高度严肃的技术基础设施。
@@ -42,10 +41,12 @@ I had two options:
 2. Build a wireless Android streaming system with ADB, scrcpy, mDNS discovery, a virtual display, audio forwarding, interactive setup, and experimental power management.
 
 Naturally, I chose option 2.
+Actually, It significantly reduce the time of using your phone (not really).
 
 摆在我面前的有两条路：拿起手机，或者研究无线调试、虚拟显示、音视频编码、设备发现与屏幕电源管理。
 
 **显然，第二条路更符合人类文明的发展方向。**
+**这还显著的减少了你的手机使用时间（也许，但是我不在乎）**
 
 This project does **not** implement its own video codec or streaming protocol. It automates excellent existing tools to solve an extremely personal inconvenience.
 
@@ -86,9 +87,9 @@ Other Android devices **may** work. This repository does not claim they will.
 其他 Android 设备可能可以运行，但不作任何兼容性保证。
 
 > **When will my phone be supported?**  
-> When I buy one. Perhaps.  
+> When I buy one. Maybe. Or you could buy me a flagship phone. Either way, no updates are guaranteed—even if you buy me the phone
 > **什么时候支持我的手机？**  
-> 等我买了再说。买了也不一定。
+> 等我买了再说。买了也不一定。或者你也可以给我买个旗舰手机。不过，尽管你给我买了手机，更新也不是保证的。
 
 ### Requirements / 环境要求
 
@@ -253,6 +254,8 @@ On a supported device, the experimental guard watches the Android wakefulness st
 **这不是安全锁屏。** 实体屏幕熄灭不代表系统已安全锁定。不同 Android 版本和厂商也不保证行为一致。
 
 Emergency command / 应急命令：
+I hope you never use it./我希望你永远不要用到它。
+I hope me never use it./我希望我也永远不要用到它。
 
 ```bash
 ./mirror_fanqie.sh --restore-screen
