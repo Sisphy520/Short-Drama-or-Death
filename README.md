@@ -1,23 +1,8 @@
 # 🍅 Short Drama or Death
-
-**Mission-critical infrastructure for absolutely non-critical entertainment.**
-
-为毫无战略价值的娱乐活动，建设具有战略级复杂度的基础设施。
-
-## Description
-
-A ridiculously overengineered zsh script that streams Chinese short dramas from Android to macOS over Wi-Fi, powered by ADB, scrcpy, and the developer's profound unwillingness to pick up a phone.
-
-一个经过极度过度设计的 zsh 脚本，利用 ADB 和 scrcpy，通过 Wi-Fi 将 Android 手机上的中国短剧传输至 macOS。项目的核心驱动力，是开发者对于拿起手机这一行为的深刻抗拒。
-
-**Tested on:** Samsung Galaxy Z Fold6.
-
-**Other devices:** Not my problem until I buy them.
-
-**Maintenance:** When I feel like it.
-
-**Updates:** Publication not guaranteed.
-
+**For Short Drama Addicts Who Consider Picking Up a Phone a Violation of Their Fundamental Human Rights.**
+Target users：ShortDramaAddicts and PhonePickupHaters
+**献给那些认为拿起手机侵犯了自己基本人权的短剧成瘾者。**
+**目标用户：短剧成瘾者和拿起手机厌恶者**
 
 > **Mission-critical infrastructure for absolutely non-critical entertainment.**  
 > 为毫无战略意义的娱乐活动，建设高度严肃的技术基础设施。
@@ -41,7 +26,7 @@ I had two options:
 2. Build a wireless Android streaming system with ADB, scrcpy, mDNS discovery, a virtual display, audio forwarding, interactive setup, and experimental power management.
 
 Naturally, I chose option 2.
-Actually, It significantly reduce the time of using your phone (not really).
+Actually, It can significantly reduce your screen time  (not really).
 
 摆在我面前的有两条路：拿起手机，或者研究无线调试、虚拟显示、音视频编码、设备发现与屏幕电源管理。
 
@@ -80,16 +65,16 @@ This project does **not** implement its own video codec or streaming protocol. I
 
 That's the entire official test fleet. One phone. An exceptionally prestigious fleet, admittedly.
 
-以上即为全部官方测试设备。一台。规模不大，但精神可嘉。
+以上即为全部官方测试设备。一台。规模不大，但精神可嘉（我已经很棒了）。
 
 Other Android devices **may** work. This repository does not claim they will.
 
-其他 Android 设备可能可以运行，但不作任何兼容性保证。
+其他 Android 设备可能（对的你没看错，是可能，至于为什么不是保证，你真该去学学逻辑学）可以运行，但不作任何兼容性保证。
 
 > **When will my phone be supported?**  
-> When I buy one. Maybe. Or you could buy me a flagship phone. Either way, no updates are guaranteed—even if you buy me the phone
+> When I buy one. Maybe. Or you could buy me a flagship phone(strongly recommended). Either way, no updates are guaranteed—even if you buy me the phone
 > **什么时候支持我的手机？**  
-> 等我买了再说。买了也不一定。或者你也可以给我买个旗舰手机。不过，尽管你给我买了手机，更新也不是保证的。
+> 等我买了再说。买了也不一定。或者你也可以给我买个旗舰手机(强烈推荐）。不过，即使你真的给我买了手机，更新也不是保证的，因为白嫖是人类的第一驱动力。
 
 ### Requirements / 环境要求
 
@@ -137,20 +122,20 @@ brew install --cask android-platform-tools
 
 The script may also offer to install Homebrew if necessary, **but only after asking permission**. Review what you are agreeing to; the author is not responsible for your terminal habits.
 
-如果缺少 Homebrew，交互模式也可能询问是否安装，但不会未经同意直接执行安装。请认真阅读提示。开发者不负责替用户管理点击确认的冲动。
+如果缺少 Homebrew，交互模式也可能询问是否安装，但不会未经同意直接执行安装。请认真阅读提示。开发者（也就是我）不负责替用户（也就是你）管理点击确认的冲动。
 
 ### 3. Enable Wireless Debugging / 开启无线调试
 
-On a Samsung phone / 在三星手机上：
+On a Samsung phone / 在三星手机（也就是我的手机，fold6，至于为什么不是fold8，你看我名字「忧郁的穷逼孩子」啊）上：
 
 1. Open **Settings → About phone → Software information**. / 打开**设置 → 关于手机 → 软件信息**。
 2. Tap **Build number** seven times to enable Developer options. / 连续点击**版本号**七次开启开发者选项。
 3. Open **Developer options → Wireless debugging**. / 进入**开发者选项 → 无线调试**。
 4. Choose **Pair device with pairing code**. / 选择**使用配对码配对设备**。
 
-Use a trusted Wi-Fi network. ADB wireless debugging is a development feature, not something to leave enabled indiscriminately on untrusted networks.
+Use a trusted Wi-Fi network. ADB wireless debugging is a development feature, not something to leave enabled indiscriminately on untrusted networks（Yes, you can. No, you probably shouldn't).
 
-请使用可信任的 Wi-Fi 网络。无线调试是开发功能，不建议在不可信的网络上随意开启。
+请使用可信任的 Wi-Fi 网络。无线调试是开发功能，不建议在不可信的网络上随意开启（尽管你完全有能力做到，但是，不能，至少不应该）。
 
 ### 4. Pair once / 首次配对
 
@@ -182,7 +167,7 @@ The script checks dependencies, tries to connect to your phone, and launches Fan
 
 **In the default independent-display mode, enter the short-drama tab yourself from the Mac window.** The script does *not* claim to navigate there automatically in this mode.
 
-**默认独立显示模式不会自动点击短剧入口。** 请在 Mac 投屏窗口中自行进入短剧板块。至少这一步，开发者认为用户仍有能力完成。
+**默认独立显示模式不会自动点击短剧入口。** 请在 Mac 投屏窗口中自行进入短剧板块。至少这一步，开发者（真诚的）认为用户仍有能力完成。
 
 If no connection can be established, the interactive menu offers first-time pairing, manual connection, or another automatic search.
 
@@ -255,7 +240,8 @@ On a supported device, the experimental guard watches the Android wakefulness st
 
 Emergency command / 应急命令：
 I hope you never use it./我希望你永远不要用到它。
-I sincerely hope I never have to use it either./我希望我也永远不要用到它。
+
+I sincerely hope I never have to use it either./我希望我也永远不要用到它，真心的，我真的不想，不愿意，也不希望，有用到它的一天。
 
 ```bash
 ./mirror_fanqie.sh --restore-screen
@@ -330,6 +316,11 @@ A: You can inspect and fork the public repository. Check its actual license befo
 
 **Status: Conceptually magnificent. Technically inconvenient.**  
 **状态：概念上极其伟大，实现起来有点麻烦。**
+
+YubiKey is not cheap, but I have two of them.
+Prepare two of them, because if you lose one of them, it can be a disaster.
+这东西蛮贵的，但是我有俩。
+你最好准备两个，如果你丢了一个，卧槽，那你遭老罪咯。
 
 I am considering requiring a physical YubiKey before launching this extraordinarily sensitive short-drama viewing infrastructure.
 
